@@ -13,7 +13,7 @@ body {
     z-index: 1;
     top: 20px;
     left: 10px;
-    background: #eee;
+    background: white;
     overflow-x: hidden;
     padding: 8px 0;
   }
@@ -43,3 +43,106 @@ body {
   .underline {
     border-bottom-style: groove;
   }
+
+  .icon1 {
+    background: url(../images/Group.png);
+    height: 28px;
+    width: 25px;
+    display: inline-block;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding-right: 5px;    
+}
+
+.icon2 {
+  background: url(../images/Shape-3.png);
+  height: 28px;
+  width: 25px;
+  display: inline-block;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-right: 5px;    
+}
+
+.icon3 {
+  background: url(../images/Shape-4.png);
+  height: 28px;
+  width: 25px;
+  display: inline-block;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-right: 5px;    
+}
+
+.icon4 {
+  background: url(../images/Shape-5.png);
+  height: 28px;
+  width: 25px;
+  display: inline-block;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-right: 5px;    
+}
+.icon5 {
+  background: url(../images/Shape-1.png);
+  height: 28px;
+  width: 25px;
+  display: inline-block;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-right: 5px;    
+}
+.icon6 {
+  background: url(../images/Shape-2.png);
+  height: 28px;
+  width: 25px;
+  display: inline-block;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-right: 5px;    
+}
+.icon7 {
+  background: url(../images/Shape-6.png);
+  height: 28px;
+  width: 25px;
+  display: inline-block;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-right: 5px;    
+}
+.icon8 {
+  background: url(../images/SYSTEM.png);
+  height: 28px;
+  width: 50px;
+  display: inline-block;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-right: 5px;    
+}
+.icon9 {
+  background: url(../images/Shape-7.png);
+  height: 28px;
+  width: 25px;
+  display: inline-block;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-right: 5px;    
+}
+.icon10 {
+  background: url(../images/Shape-8.png);
+  height: 28px;
+  width: 25px;
+  display: inline-block;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-right: 5px;    
+}
+.icon11 {
+  background: url(../images/Shape.png);
+  height: 28px;
+  width: 25px;
+  display: inline-block;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-right: 5px;    
+}
