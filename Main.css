@@ -3,8 +3,9 @@ body {
   }
 
   .title {
-    padding: 6px 5px 6px 35px !important;
-    font-size: 16px !important;
+    padding: 6px 5px 6px 25px !important;
+    font-size: 12px !important;   
+    background-position: left center;   
   }
   
   .sidenav {
@@ -21,28 +22,20 @@ body {
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10px;
     color:black;
     display: block;
   }
   
   .sidenav a:hover {
     color: #064579;
-  }
-  
-  .main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
+  }  
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-  .underline {
-    border-bottom-style: groove;
-  }
+  
 
   .icon1 {
     background: url(./images/Group.png);
@@ -133,7 +126,7 @@ body {
   height: 28px;
   width: 25px;
   display: inline-block;
-  background-position: left center;
+  background-position: left bottom;
   background-repeat: no-repeat;
   padding-right: 5px;    
 }
@@ -142,7 +135,10 @@ body {
   height: 28px;
   width: 25px;
   display: inline-block;
-  background-position: left center;
+  background-position: left bottom;
   background-repeat: no-repeat;
   padding-right: 5px;    
+}
+.verticalalign {
+  vertical-align: middle;
 }
