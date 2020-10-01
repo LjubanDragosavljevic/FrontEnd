@@ -3,27 +3,52 @@ body {
   }
 
   .title {
-    padding: 6px 5px 6px 25px !important;
-    font-size: 12px !important;   
-    background-position: left center;   
+    padding: 0px 5px 25px 15px !important;
+    font-size: 12px !important; 
+    font-weight: bold;    
+  }
+  .bottomBorder {
+    border-bottom: solid;
+    border-color: #80808024;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+  .topBorder {
+    border-top: solid;
+    border-color: #80808024;
+    padding-bottom: 0px; 
+    width: 100%;     
+  }
+  a:active {
+    background-color:  #80808024;
   }
   
   .sidenav {
-    width: 230px;
+    min-width: 230px;
     position: fixed;
     z-index: 1;
-    top: 20px;
+    top: 0%;
     left: 10px;
     background: white;
     overflow-x: hidden;
     padding: 8px 0;
+    border-right: solid;
+    border-color: #80808024;
+    border-width: 15px;
+    width:300px;
+    height: 100%;
+    margin: 0%;
+  }
+  li {
+    height: 30px;
+    padding-bottom: 10px;
   }
   
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 10px;
-    color:black;
+    color: #000000a8;
     display: block;
   }
   
@@ -39,106 +64,163 @@ body {
 
   .icon1 {
     background: url(./images/Group.png);
-    height: 28px;
+    height: 25px;
     width: 25px;
     display: inline-block;
-    background-position: left bottom;
+    background-position: center;
     background-repeat: no-repeat;
-    padding-right: 5px;    
+    padding: 5px;    
+    vertical-align: middle;   
+    border: #80808024;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-right: 5px;
 }
 
 .icon2 {
   background: url(./images/Shape-3.png);
-  height: 28px;
+  height: 20px;
   width: 25px;
   display: inline-block;
-  background-position: left bottom;
+  background-position: left center;
   background-repeat: no-repeat;
-  padding-right: 5px;    
+  padding-right: 5px; 
+  vertical-align: middle;   
 }
 
 .icon3 {
   background: url(./images/Shape-4.png);
-  height: 28px;
+  height: 20px;
   width: 25px;
   display: inline-block;
-  background-position: left bottom;
+  background-position: left center;
   background-repeat: no-repeat;
-  padding-right: 5px;    
+  padding-right: 5px;  
+  vertical-align: middle;  
 }
 
 .icon4 {
   background: url(./images/Shape-5.png);
-  height: 28px;
+  height: 20px;
   width: 25px;
   display: inline-block;
-  background-position: left bottom;
+  background-position: left center;
   background-repeat: no-repeat;
-  padding-right: 5px;    
+  padding-right: 5px; 
+  vertical-align: middle;   
 }
 .icon5 {
   background: url(./images/Shape-1.png);
-  height: 28px;
+  height: 20px;
   width: 25px;
   display: inline-block;
-  background-position: left bottom;
+  background-position: left center;
   background-repeat: no-repeat;
   padding-right: 5px;    
+  vertical-align: middle;
 }
 .icon6 {
   background: url(./images/Shape-2.png);
-  height: 28px;
+  height: 20px;
   width: 25px;
   display: inline-block;
-  background-position: left bottom;
+  background-position: left center;
   background-repeat: no-repeat;
-  padding-right: 5px;    
+  padding-right: 5px; 
+  vertical-align: middle;   
 }
 .icon7 {
   background: url(./images/Shape-6.png);
-  height: 28px;
+  height: 20px;
   width: 25px;
   display: inline-block;
-  background-position: left bottom;
+  background-position: left center;
   background-repeat: no-repeat;
-  padding-right: 5px;    
+  padding-right: 5px;   
+  vertical-align: middle; 
 }
 .icon8 {
   background: url(./images/SYSTEM.png);
-  height: 28px;
+  height: 10px;
   width: 50px;
   display: inline-block;
-  background-position: left bottom;
+  background-position: left center;
   background-repeat: no-repeat;
-  padding-right: 5px;    
+  padding-top: 12px; 
+  vertical-align: middle;     
 }
 .icon9 {
   background: url(./images/Shape-7.png);
-  height: 28px;
+  height: 20px;
   width: 25px;
   display: inline-block;
-  background-position: left bottom;
+  background-position: left center;
   background-repeat: no-repeat;
-  padding-right: 5px;    
+  padding-right: 5px; 
+  vertical-align: middle;   
 }
 .icon10 {
   background: url(./images/Shape-8.png);
-  height: 28px;
+  height: 23px;
   width: 25px;
   display: inline-block;
-  background-position: left bottom;
+  background-position: left center;
   background-repeat: no-repeat;
-  padding-right: 5px;    
+  padding-right: 5px;  
+  vertical-align: middle;  
 }
 .icon11 {
   background: url(./images/Shape.png);
-  height: 28px;
+  height: 22px;
   width: 25px;
   display: inline-block;
-  background-position: left bottom;
+  background-position: left center;
   background-repeat: no-repeat;
-  padding-right: 5px;    
+  padding-right: 5px;  
+  vertical-align: middle;  
 }
-.verticalalign {
-  vertical-align: middle;
+.icon12 {
+  background: url(./images/user.png);
+  height: 22px;
+  width: 25px;
+  display: inline-block;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-right: 5px;  
+  vertical-align: middle;  
 }
+
+.bottom {
+  position: absolute;
+  bottom: 50px;  
+}
+
+.placeholder {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+  text-align: center;
+  color: black;
+  width: 200px;
+  height: 30px;
+  border-width: 0px;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+.placeholder:focus {
+  background-color:white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+}
+
