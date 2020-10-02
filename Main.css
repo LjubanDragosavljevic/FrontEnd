@@ -22,7 +22,7 @@ body {
   }
   a:active {
     background-color:  #80808024;
-    border-right: 5px solid #0080ff;    
+    border-right: 5px solid #0080ff;
   }
   
   .sidenav {
@@ -197,7 +197,7 @@ body {
   border-width: 2px;
   border-radius: 50%;
   border-radius: 50%;
-    background-color:  #80808024;
+  background-color:  #80808024;
 }
 .icon13 {
   background: url(./images/user.png);
@@ -220,7 +220,7 @@ body {
   font-size: 10px;
   text-align: center;
   color: black;
-  width: 200px;
+  width: 145px;
   height: 30px;
   border-width: 0px;
   border: none;
