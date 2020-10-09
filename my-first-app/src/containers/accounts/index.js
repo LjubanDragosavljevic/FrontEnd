@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Accounts() {
+function Accounts() {
     return (
         <div>
             <h1>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Networks() {
+function Networks() {
     return (
         <div>
             <h1>
